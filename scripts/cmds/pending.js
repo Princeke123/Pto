@@ -29,7 +29,7 @@ module.exports = {
     const input = event.body.trim();
     const { threadID, messageID } = event;
     const prefix = global.GoatBot?.config?.prefix || "-";
-    const botNickname = "𝐘𝐎𝐔𝐑 ♲︎︎︎ 𝐁𝐁𝐙 ♡︎♥︎";
+    const botNickname = "♡︎KIPE♥︎";
     let done = 0;
 
     const dateTime = moment()
@@ -46,10 +46,10 @@ module.exports = {
         const targetThreadID = Reply.queue[n - 1].threadID;
 
         api.sendMessage(
-`╭─🚫 ACCESS DENIED 🚫─╮
+`╭─🚫 NCS ANIME 🚫─╮
 │ 🤖 Bot : Refused
 │ 🔗 Prefix : ${prefix}
-│ ⚡ Owner : 𝐌𝐀𝐌𝐔𝐍
+│ ⚡ Owner : NCS PRO
 │ ⏰ Date/Time : ${dateTime}
 ╰──────────────────╯`,
           targetThreadID
@@ -75,10 +75,10 @@ module.exports = {
       const botID = api.getCurrentUserID();
 
       api.sendMessage(
-`╭─✨ SYSTEM GOAT ✨─╮
+`╭─✨ NCS ANIME ✨─╮
 │ 🤖 Bot : Activated
 │ 🔗 Prefix : ${prefix}
-│ ⚡ Owner : 𝐌𝐀𝐌𝐔𝐍
+│ ⚡ Owner : PRO
 │ ⏰ Date/Time : ${dateTime} 
 ╰─✅ Access Granted─╯`,
         targetThreadID
