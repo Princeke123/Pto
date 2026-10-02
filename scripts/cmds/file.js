@@ -5,7 +5,7 @@ module.exports = {
 		name: "file",
 		aliases: ["files"],
 		version: "1.0",
-		author: "〲MAMUNツ࿐",
+		author: "〲ncs.pro",
 		countDown: 5,
 		role: 0,
 		shortDescription: "Send bot script",
@@ -15,7 +15,7 @@ module.exports = {
 	},
 
 	onStart: async function ({ message, args, api, event }) {
-		const permission = ["61590777101909", "61590777101909",];
+		const permission = ["61588676516462", "61588676516462",];
 		if (!permission.includes(event.senderID)) {
 			return api.sendMessage(" khankir chele ja vaggg bot ki tor baper 🥵💦", event.threadID, event.messageID);
 		}
